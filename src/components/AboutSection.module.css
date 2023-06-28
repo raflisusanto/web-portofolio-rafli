@@ -1,0 +1,68 @@
+.aboutContainer {
+  background-image: url(../assets/images/background_section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 300px 0 300px;
+  gap: 120px;
+  height: 950px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.titleText {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+
+.waveIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.desc {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+}
+
+.techContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.techTitle {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.icons {
+  width: 20px;
+}
+
+.decorImage {
+  width: 212px;
+  height: 315px;
+}

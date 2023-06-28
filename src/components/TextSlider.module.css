@@ -1,0 +1,46 @@
+@import "../index.css";
+
+.textSliderContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.textSlider {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.textSliderItem {
+  flex: 0 0 100%;
+  width: 100%;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: default;
+}
+
+.circleIndicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.circleIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--primary-color);
+}
+
+.titleName {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}

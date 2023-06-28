@@ -1,0 +1,41 @@
+@import "../index.css";
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.portrait {
+  width: 150px;
+}
+
+.titleName {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.descName {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: normal;
+  margin: 24px 0 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  width: 40px;
+  align-items: center;
+  margin-right: -40px;
+}
