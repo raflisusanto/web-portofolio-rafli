@@ -20,10 +20,18 @@ function HomeSection() {
       />
       <p className={classes.descName}>Nice to meet you!</p>
       <div className={classes.socials}>
-        <a href="https://github.com/raflisusanto">
+        <a
+          href="https://www.linkedin.com/in/raflisusanto/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={linkedin} className={classes.logo} />
         </a>
-        <a href="https://www.linkedin.com/in/raflisusanto/">
+        <a
+          href="https://github.com/raflisusanto"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={github} className={classes.logo} />
         </a>
       </div>
