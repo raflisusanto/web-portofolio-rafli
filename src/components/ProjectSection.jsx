@@ -25,11 +25,21 @@ function ProjectSection() {
         <p className={classes.desc}>
           There are a lot more designs I've done in these past 4 years, please
           check this{" "}
-          <a href="" className={classes.links}>
+          <a
+            href="https://drive.google.com/drive/folders/1j1kK7jdVDX-47yhXrrLRxzcNrGA7-7cx?usp=sharing"
+            className={classes.links}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GDrive
           </a>
           , or my{" "}
-          <a href="" className={classes.links}>
+          <a
+            href="https://dribbble.com/lusiususanto"
+            className={classes.links}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Dribbble
           </a>{" "}
           for more.
