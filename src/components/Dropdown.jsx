@@ -3,7 +3,7 @@ import classes from "./Dropdown.module.css";
 
 function Dropdown({ setSelectedOption }) {
   const options = [
-    "Front-end Development",
+    "Mobile/ Front-end Development",
     "Machine Learning",
     "Graphic Design",
   ];

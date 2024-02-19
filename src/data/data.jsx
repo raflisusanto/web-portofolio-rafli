@@ -1,4 +1,5 @@
 import specifitAdmin from "../../src/assets/images/thumbnail/FE/Specifit_admin.png";
+import githubUser from "../../src/assets/images/thumbnail/FE/Github.png";
 import specifitFE from "../../src/assets/images/thumbnail/FE/Specifit.png";
 import esyarat from "../../src/assets/images/thumbnail/FE/Esyarat.png";
 import booku from "../../src/assets/images/thumbnail/FE/Booku.png";
@@ -19,7 +20,15 @@ import mizkin from "../../src/assets/images/thumbnail/GD/mizkin.png";
 import temuin from "../../src/assets/images/thumbnail/GD/temuin.png";
 
 export const projectData = {
-  "Front-end Development": [
+  "Mobile/ Front-end Development": [
+    {
+      img: githubUser,
+      title: "Github Users App",
+      desc: "A simple application that can search, favorite, and show github users details with dynamic Dark and Light theme. Developed using Android Studio (Kotlin), with MVVM Architecture, this app also uses Retrofit to fetch data from API and Room Database, DataStore to save the data locally.",
+      techStack: "Kotlin",
+      github: true,
+      githubLink: "https://github.com/raflisusanto/github-app-final",
+    },
     {
       img: specifitAdmin,
       title: "Specifit Administrator Website",
